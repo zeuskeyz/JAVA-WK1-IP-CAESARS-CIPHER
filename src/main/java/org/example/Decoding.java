@@ -2,7 +2,7 @@ package org.example;
 public class Decoding {
     public static String decode (String message, int cipherKey) {
         //UES THE getEncryptors() FROM THE ALPHABETS.JAVA CLASS TO ASSIGN ALPHABETS IN THE DECODING.JAVA CLASS
-        String decodingAlphabets = Alphabets.getEncryptors();;
+        String decodingAlphabets = Alphabets.getEncryptors();
 
         String decodedText = ""; //INITIALIZES AN EMPTY STRING TO HOLD DECODED OUTPUT
 
