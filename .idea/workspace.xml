@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/EncodingTest.java" afterDir="false" />
+    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="ammends comments to the Encoding.java file">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Decoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Encoding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +265,49 @@
       <option name="project" value="LOCAL" />
       <updated>1681729783249</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ammends comments to the EncodingTest.java file">
+      <created>1681730240610</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681730240610</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ammends comments to the DecodingTest.java file and corrects some grammatical mistakes in the EncodingTest.java comments">
+      <created>1681730358460</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681730358460</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ammends comments to the AlphabetsTest.java file">
+      <created>1681730470421</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681730470421</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ammends comments to the Main.java file">
+      <created>1681731522604</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681731522604</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ammends comments to the Encoding.java file">
+      <created>1681732019450</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732019450</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ammends comments to the Encoding.java file">
+      <created>1681732116425</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732116425</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,14 +329,19 @@
     <MESSAGE value="ammends code to the DecodingTest.java file to test for key error functionality if key is less than zero." />
     <MESSAGE value="ammends code to the EncodingTest.java file to test for key error functionality if key is greater than zero." />
     <MESSAGE value="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero." />
-    <option name="LAST_COMMIT_MESSAGE" value="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero." />
+    <MESSAGE value="ammends comments to the EncodingTest.java file" />
+    <MESSAGE value="ammends comments to the DecodingTest.java file and corrects some grammatical mistakes in the EncodingTest.java comments" />
+    <MESSAGE value="ammends comments to the AlphabetsTest.java file" />
+    <MESSAGE value="ammends comments to the Main.java file" />
+    <MESSAGE value="ammends comments to the Encoding.java file" />
+    <option name="LAST_COMMIT_MESSAGE" value="ammends comments to the Encoding.java file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>32</line>
+          <line>44</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

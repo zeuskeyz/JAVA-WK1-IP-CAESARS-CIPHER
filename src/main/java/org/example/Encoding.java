@@ -5,10 +5,11 @@ public class Encoding {
         //USES THE getEncryptors() FROM THE ALPHABETS.JAVA CLASS TO ASSIGN ALPHABETS IN THE ENCODING.JAVA CLASS
         final String encodingAlphabets = Alphabets.getEncryptors();
 
-        String encodedText = ""; //INITIALIZES AN EMPTY STRING TO HOLD FINAL OUTPUT
+        String encodedText = ""; //INITIALIZES AN EMPTY STRING TO HOLD ENCODED OUTPUT
 
         //ENSURES THE CIPHER KEY IS BETWEEN 1-26
         if (cipherKey > 0 && cipherKey < encodingAlphabets.length()){
+
             //LOOPS THROUGH THE USER MESSAGE
             for (int i=0; i<message.length(); i++) {
                 char msgLetter = message.charAt(i);
@@ -24,7 +25,7 @@ public class Encoding {
                         encodedText += encodingAlphabets.charAt(cipherStart % encodingAlphabets.length());
                 }
 
-                //HANDLES NON-ALPHABETICAL MEMBERS OF THE USER MESSAGEE
+                //HANDLES NON-ALPHABETICAL MEMBERS OF THE USER MESSAGE
                 else
                     encodedText += msgLetter;
             }
