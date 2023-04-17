@@ -9,7 +9,7 @@ public class Decoding {
         if (cipherKey > 0 && cipherKey < decodingAlphabets.length()){
             for(int i=0; i<message.length(); i++){
 
-                Character msgLetter = message.charAt(i);
+                char msgLetter = message.charAt(i);
 
                 if(Character.isLetter(msgLetter)){
 
