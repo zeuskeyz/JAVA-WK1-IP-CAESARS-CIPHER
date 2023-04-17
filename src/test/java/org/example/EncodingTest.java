@@ -6,10 +6,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EncodingTest {
-
     @Test
-    @DisplayName(value = "TESTING DECODING FUNCTIONS")
-    void decode() {
-        assertEquals("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", Decoding.decode("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", 23));
+    @DisplayName(value = "TESTING ENCODING FUNCTIONS")
+    void encode() {
+        assertEquals("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", Encoding.encode("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 23));
     }
 }
