@@ -21,7 +21,7 @@ public class Encoding {
                     if (cipherStart < encodingAlphabets.length() )
                         encodedText += encodingAlphabets.charAt(cipherStart);
                     else
-                        encodedText += encodingAlphabets.charAt(cipherStart%encodingAlphabets.length());
+                        encodedText += encodingAlphabets.charAt(cipherStart % encodingAlphabets.length());
                 }
 
                 //HANDLES NON-ALPHABETICAL MEMBERS OF THE USER MESSAGEE
