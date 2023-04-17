@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="ammends code to the DecodingTest.java file to test f for decoding functionality.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DecodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DecodingTest.java" afterDir="false" />
+    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/EncodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.EncodingTest.encode">
     <configuration name="DecodingTest.decode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,8 +98,33 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="EncodingTest.encode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.EncodingTest.encode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EncodingTest.encode" />
         <item itemvalue="Gradle.DecodingTest.decode" />
       </list>
     </recent_temporary>
@@ -211,7 +236,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681728887730</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ammends code to the DecodingTest.java file to test f for key error functionality.">
+      <created>1681729580423</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729580423</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ammends code to the DecodingTest.java file to test for key error functionality if key is less than zero.">
+      <created>1681729692901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729692901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ammends code to the EncodingTest.java file to test for key error functionality if key is greater than zero.">
+      <created>1681729754760</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729754760</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero.">
+      <created>1681729783249</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729783249</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +282,11 @@
     <MESSAGE value="add code to the DecodingTest.java file to test f for decoding functionality." />
     <MESSAGE value="add code to the EncodingTest.java file to test f for encoding functionality." />
     <MESSAGE value="ammends code to the DecodingTest.java file to test f for decoding functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="ammends code to the DecodingTest.java file to test f for decoding functionality." />
+    <MESSAGE value="ammends code to the DecodingTest.java file to test f for key error functionality." />
+    <MESSAGE value="ammends code to the DecodingTest.java file to test for key error functionality if key is less than zero." />
+    <MESSAGE value="ammends code to the EncodingTest.java file to test for key error functionality if key is greater than zero." />
+    <MESSAGE value="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero." />
+    <option name="LAST_COMMIT_MESSAGE" value="ammends code to the EncodingTest.java file to test for key error functionality if key is lesser than zero." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
