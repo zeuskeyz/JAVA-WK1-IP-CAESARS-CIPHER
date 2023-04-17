@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="ammends comments to the Encoding.java file">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Decoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Encoding.java" afterDir="false" />
+    <list default="true" id="f1e404dd-718b-4e7e-a710-9967f2a24298" name="Changes" comment="adds comments to the Alphabets.java file">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,11 +306,38 @@
       <option name="project" value="LOCAL" />
       <updated>1681732116425</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ammends comments to the Decoding.java file">
+      <created>1681732600288</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732600288</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ammends comments to the Decoding.java file">
+      <created>1681732613723</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732613723</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ammends syntax errors in the Decoding.java file">
+      <created>1681732683956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732683956</updated>
+    </task>
+    <task id="LOCAL-00028" summary="adds comments to the Alphabets.java file">
+      <created>1681732866994</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681732866994</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial committ" />
     <MESSAGE value="adds the Alphabets.java, Decoding.java and Encoding.java files" />
     <MESSAGE value="adds to the Alphabets.java file, a function to generate the english alphabets and a getter to get the generated results" />
     <MESSAGE value="adds to the Decoding.java file, a function to decode the encoded message" />
@@ -334,7 +360,10 @@
     <MESSAGE value="ammends comments to the AlphabetsTest.java file" />
     <MESSAGE value="ammends comments to the Main.java file" />
     <MESSAGE value="ammends comments to the Encoding.java file" />
-    <option name="LAST_COMMIT_MESSAGE" value="ammends comments to the Encoding.java file" />
+    <MESSAGE value="ammends comments to the Decoding.java file" />
+    <MESSAGE value="ammends syntax errors in the Decoding.java file" />
+    <MESSAGE value="adds comments to the Alphabets.java file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds comments to the Alphabets.java file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
